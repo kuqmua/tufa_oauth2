@@ -1,0 +1,15 @@
+[package]
+edition = "2021"
+name = "common"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "^0"
+derive_more = "^0.99"
+getrandom = {version = "^0.2.5", features = ["js"]}
+serde = {version = "^1", features = ["derive"]}
+strum = {version = "^0.24", features = ["derive"]}
+strum_macros = "^0.24"
+uuid = {version = "^0.8", features = ["v4", "wasm-bindgen"]}
